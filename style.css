@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fix-width{
+    max-width: 1200px;
+    margin: auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.center{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+
+.header{
+    background-color: #f5deb3;
+}
+.header-left{
+    width: 40%;
+}
+.header-left img{
+   width: 160px;
+}
+.header-right{
+    width: 60%;
+}
+.header-right ul{
+        list-style: none;
+        text-align: right;
+}
+.header-right ul li{
+        display: inline-block;
+      
+}
+.header-right ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+	line-height: 85px;
+	padding: 29px 32px;
+	border-right: 2px solid #fff;
+}
+
+.slider{
+    background: url(./image/intro-bg.jpg) no-repeat center;
+    padding:220px 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.slider-content{
+    text-align: center;
+}
+.slider-content span {
+	display: block;
+	color: #3798db;
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 600;
+}
+
+.about-section{
+    padding: 100px;
+  
+}
+.about-left {
+	width: 40%;
+	text-align: right;
+}
+.about-left img {
+	width: 320px;
+}
+
+
+.about-right {
+	width: 50%;
+	margin-top: 25px;
+}
+.about-right strong {
+	display: block;
+	font-size: 30px;
+	padding: 10px 0;
+}
+.about-right h3 {
+	font-size: 23px;
+	padding: 10px 0;
+}
+.about-right p {
+	font-size: 20px;
+	line-height: 37px;
+	font-weight: 500;
+}
+
+.service-section{
+    padding: 100px 0;
+    background-color: #fffaf0;
+}
+
+.services-box {
+	width: 31%;
+	margin-right: 2%;
+	text-align: center;
+	padding: 30px 23px;
+	border: 2px dashed #cecece;
+	border-radius: 80px 0;
+    box-sizing: border-box;
+}
+.services-box span {
+	display: block;
+	font-size: 50px;
+	color: #5996da;
+	height: 70px;
+	width: 70px;
+	margin: auto;
+	border: 2px solid #5996da;
+	line-height: 73px;
+	border-radius: 27px 0;
+    margin-bottom: 20px;
+}
+.services-box strong {
+	display: block;
+	font-size: 30px;
+	padding: 5px 0;
+	margin-bottom: 10px;
+}
+.services-box p {
+	font-size: 19px;
+	font-weight: 400;
+}
+
+.footer {
+	background-color: #2c3e50;
+	padding: 30px 0;
+}
+
+.footer-left{
+    width: 40%;
+}
+.footer-left p {
+	padding: 0;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.footer-right{
+    width: 60%;
+}
+.footer-right ul{
+  text-align: right;
+}
+.footer-right ul li{
+    display: inline-block;
+}
+.footer-right ul li a {
+	display: inline-block;
+	color: #fff;
+	padding: 0px 15px;
+	font-size: 20px;
+}
